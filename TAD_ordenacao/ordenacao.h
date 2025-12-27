@@ -15,7 +15,7 @@ typedef struct {
 // --- Gerenciamento de Vetor ---
 Vetor* criar_vetor(int tamanho);
 void liberar_vetor(Vetor *v);
-void preencher_aleatorio(Vetor *v); // Agora só existe preenchimento aleatório
+void preencher_aleatorio(Vetor *v);
 Vetor* copiar_vetor(Vetor *origem);
 
 // --- Algoritmos de Ordenação ---
